@@ -77,6 +77,7 @@ img {
   font-size: 1.1rem;
 }
 
+/* Galerie */
 .filtres {
   text-align: center;
   display: flex;
@@ -118,6 +119,50 @@ img {
   display: none;
   transition: width .5s;
 }
+/* Fin galerie */
+
+/* Prestations */
+.cartes {
+  color: gray;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.card {
+  width: 30em;
+  height: auto;
+  margin: 20px;
+  text-align: center;
+  justify-content: center;
+  box-shadow: 5px 5px 5px rgba(255, 255, 255, 0.785);
+}
+
+.card-body {
+  padding: 0;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.card-title {
+  font-size: 2rem;
+  font-weight: 900;
+  color: darkslategray;
+  background: lightgray;
+  padding: 20px;
+}
+
+.card-text {
+  padding: 10px;
+  font-size: 1.2rem;
+}
+
+.card-desc {
+  margin-bottom: 0;
+}
+
+/* Fin prestations */
 
 /* Footer */
 .social {
