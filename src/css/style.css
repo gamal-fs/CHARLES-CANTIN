@@ -119,6 +119,27 @@ img {
   transition: width .5s;
 }
 
+/* Footer */
+.social {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.social-items a {
+  font-size: .7em;
+  color: #fff;
+  padding: 20px;
+  transition: font-size 0.2s linear;
+}
+
+.social-items a:hover {
+  font-size: .9em;
+  color: #fff;
+}
+/* Fin footer */
+
 @media screen and (max-width: 700px){
   .accueil {
     background-image:none;
