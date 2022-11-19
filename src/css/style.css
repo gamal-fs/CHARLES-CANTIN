@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,700;1,300;1,700&display=swap');
+
+* {
+  font-family: 'Nunito', sans-serif;
+  font-size: 1rem;
+}
+
+h1, h3 {
+  text-align: center;
+}
+
+.navbar-brand {
+  font-weight: 800;
+  font-size: 2rem;
+}
+
+.about {
+  margin: 50px 200px;
+  text-align: justify;
+  text-justify: auto;
+}
+
+.active {
+  text-decoration: underline;
+  font-size: 1.2rem;
+}
+
+body {
+  background-color: #47555E;
+  color: white;
+}
+
+img {
+  width: 40%;
+  height: 40%;
+  display: block;
+  margin: auto;
+}
+
+.cdv {
+  margin: 50px;
+  text-align: justify;
+}
+
+.accueil {
+  width: 100%;
+  height: 100vh;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  background-image: url("../img/grass.jpg");
+  opacity: 0.8;
+}
+
+#titre {
+  color: #ffff;
+  text-shadow: 4px 4px 2px #47555E;
+  margin: auto;
+  text-align: center;
+  font-weight: 900;
+  font-size: 3rem;
+}
+
+.logo {
+  width: 200px;
+  margin: 0 100px;
+}
+
+.nav-link {
+  margin: 30px;
+}
+
+.navbar-nav{
+  margin-right: 30px;
+}
+.nav-link:hover {
+  font-size: 1.1rem;
+}
+
+.filtres {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.filtres li {
+  list-style-type: none;
+  margin: 10px 15px;
+}
+
+.filtres li:hover{
+  cursor: pointer;
+  font-size: 1.1rem;
+  text-decoration: underline;
+}
+
+img {
+  margin: 0;
+  padding: 0;
+  width: 400px;
+  height: auto;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.gallery .active {
+  width: 30%;
+  transition: width .5s;
+}
+
+.gallery .inactive {
+  display: none;
+  transition: width .5s;
+}
+
+
+@media screen and (max-width: 700px){
+  .accueil {
+    background-image:none;
+    height: auto;
+  }
+  .about {
+    margin: 0 30px;
+  }
+  .navbar-brand {
+    font-size: 1.5rem;
+  }
+  * {
+    font-size: 1rem;
+  }
+  .filtres {
+    display: inline;
+  }
+  .filtres li {
+    margin: 3px;
+  }
+  .logo {
+    margin: 0;
+    padding: 0;
+  }
+}
