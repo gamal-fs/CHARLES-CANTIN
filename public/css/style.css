@@ -105,6 +105,11 @@ img {
   height: auto;
 }
 
+.gallery img {
+  width: 400px;
+  height: 250px;
+}
+
 .gallery {
   display: flex;
   flex-wrap: wrap;
