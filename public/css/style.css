@@ -208,6 +208,10 @@ img {
   .filtres li {
     margin: 3px; 
   }
+  #titre {
+    letter-spacing: normal;
+    font-size: 2.5rem;
+  }
 }
 
 @media screen and (max-width: 990px) {
