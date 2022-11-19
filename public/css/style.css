@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,700;1,300;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Neuton&display=swap');
 
 * {
   font-family: 'Nunito', sans-serif;
@@ -49,16 +50,18 @@ img {
   display: flex;
   justify-content: center;
   background-image: url("../img/grass.jpg");
+  background-position: top;
   opacity: 0.8;
 }
 
 #titre {
   color: #ffff;
-  text-shadow: 4px 4px 2px #47555E;
   margin: auto;
   text-align: center;
   font-weight: 900;
-  font-size: 3rem;
+  font-size: 4rem;
+  font-family: 'Neuton', serif;
+  letter-spacing : 10px;
 }
 
 .logo {
@@ -205,10 +208,6 @@ img {
   .filtres li {
     margin: 3px; 
   }
-  .logo {
-    margin: 0;
-    padding: 0;
-  }
 }
 
 @media screen and (max-width: 990px) {
@@ -221,5 +220,9 @@ img {
 @media screen and (max-width: 1400px) {
   .about {
     margin: 50px 30px;
+  }
+  .logo {
+    margin: 0;
+    padding: 0;
   }
 }
