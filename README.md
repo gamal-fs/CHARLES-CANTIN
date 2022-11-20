@@ -22,7 +22,7 @@ Pour le back, un CMS headless était recommandé.
 Pour ma part, j'ai utilisé:  
 - HTML/CSS
 - Javascript 
-- Le CMS Headless "Forestry" avec un back-office
+- Le CMS Headless "Forestry" avec un back-office pour la gestion du contenu des prestations et des photos
 
 ## 3. Procédure de mise en place
 - Cloner le fichier sur votre ordinateur avec  
