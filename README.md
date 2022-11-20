@@ -1,6 +1,6 @@
 # CHARLES-CANTIN
 
-# [Evaluation STUDI] Projet de site vitrine pour Charles CANTIN, photographe.
+# [Evaluation STUDI] Projet de site vitrine pour Charles CANTIN - photographe.
 
 ## 1. Contexte de l'évaluation
 Charles Cantin est passionné par la photographie.
