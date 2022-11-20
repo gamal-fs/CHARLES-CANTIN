@@ -5,12 +5,13 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: directory
-  path: src/prestations.njk
+  path: src
   label: Prestations
-  create: none
+  create: documents
   match: "**/*"
-upload_dir: uploads
-public_path: "/uploads"
+  new_doc_ext: njk
+upload_dir: img
+public_path: "/img"
 front_matter_path: ''
 use_front_matter_path: false
 file_template: ":filename:"
