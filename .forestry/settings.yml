@@ -5,10 +5,11 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: directory
-  path: src/prestations.njk
+  path: src
   label: Prestations
-  create: none
+  create: documents
   match: "**/*"
+  new_doc_ext: ".njk"
 upload_dir: img
 public_path: "/img"
 front_matter_path: ''
