@@ -9,6 +9,7 @@ sections:
   label: Img
   create: documents
   match: "**/*"
+  new_doc_ext: imgs.json
   templates:
   - image
 - type: directory
