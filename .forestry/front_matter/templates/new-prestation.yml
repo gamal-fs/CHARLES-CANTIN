@@ -1,4 +1,19 @@
 ---
 label: New prestation
 hide_body: false
-fields: []
+fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: title
+- name: description
+  type: text
+  config:
+    required: false
+  label: description
+- name: price
+  type: text
+  config:
+    required: false
+  label: price
