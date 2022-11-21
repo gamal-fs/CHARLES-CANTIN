@@ -17,8 +17,8 @@ sections:
   exclude: prestations.json
   templates:
   - new-prestation
-upload_dir: img
-public_path: "/src/img"
+upload_dir: src/img
+public_path: "/public/img"
 front_matter_path: ''
 use_front_matter_path: false
 file_template: ":filename:"
