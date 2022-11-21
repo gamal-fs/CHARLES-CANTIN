@@ -20,4 +20,3 @@ fields:
   label: price
 pages:
 - src/prestations/mon-deuxieme-test.md
-- src/prestations/mon-test.md
