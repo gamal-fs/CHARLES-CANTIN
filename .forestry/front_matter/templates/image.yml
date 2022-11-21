@@ -1,4 +1,43 @@
 ---
 label: 'Image '
 hide_body: false
-fields: []
+fields:
+- name: id
+  type: number
+  label: id
+  description: ''
+  default: 
+  required: true
+  config:
+    min: 
+    max: 
+    step: 1
+    required: true
+- name: title
+  type: text
+  config:
+    required: false
+  label: title
+- name: categorie
+  type: select
+  default: ''
+  config:
+    required: false
+    options:
+    - bebe
+    - bapteme
+    - couple
+    - famille
+    - grossesse
+    - mariage
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: categorie
+- name: image
+  type: file
+  config:
+    maxSize: 64
+  label: image
