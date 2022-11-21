@@ -19,6 +19,14 @@ gal: active
   </ul>
 
   <div class="gallery d-flex flex-wrap align-items-center justify-content-center">
+
+    {# {% for image in collections.img %}
+    <img src="../img/{{image.data.title}}{{image.data.id}}.jpg" alt="{{image.data.categorie}}"
+      data-{{image.data.categorie}} class="active rounded m-2">
+    {% endfor %} #}
+
+
+
     <img src="../img/grossesse3.jpg" alt="grossesse" data-grossesse class="active rounded m-2">
     <img src="../img/bebe1.jpg" alt="bebe" data-bebe class="active rounded m-2">
     <img src="../img/mariage3.jpg" alt="mariage" data-mariage class="active rounded m-2">
@@ -43,6 +51,8 @@ gal: active
     <img src="../img/mariage2.jpg" alt="mariage" data-mariage class="active rounded m-2">
     <img src="../img/bapteme3.jpg" alt="bapteme" data-bapteme class="active rounded m-2">
     <img src="../img/couple1.jpg" alt="couple" data-couple class="active rounded m-2">
+
+
   </div>
 
 </div>
