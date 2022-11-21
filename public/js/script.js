@@ -7,6 +7,7 @@ window.onload = () => {
     filter.addEventListener("click",function () {
       let tag = this.id;
 
+
       let images = document.querySelectorAll(".gallery img");
 
       for(let image of images) {
