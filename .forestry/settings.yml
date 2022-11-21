@@ -9,6 +9,7 @@ sections:
   label: Prestations
   create: all
   match: "**/*"
+  exclude: ".json"
   templates:
   - new-prestation
 upload_dir: img
