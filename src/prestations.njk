@@ -8,13 +8,13 @@ prestations: active
 
 <div class="cartes">
 
-  {% for post in collections.posts %}
+  {% for prestation in collections.prestations %}
   <div class="card">
     <div class="card-body">
-      <h5 class="card-title">{{post.data.title}}</h5>
+      <h5 class="card-title">{{prestation.data.title}}</h5>
       <div class="card-desc">
-        <p class="card-text">{{post.data.description}}</p>
-        <a href="#" class="btn btn-secondary">{{post.data.price}}</a>
+        <p class="card-text">{{prestation.data.description}}</p>
+        <a href="#" class="btn btn-secondary">{{prestation.data.price}}</a>
       </div>
     </div>
   </div>
