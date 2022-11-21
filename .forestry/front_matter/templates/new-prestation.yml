@@ -18,5 +18,3 @@ fields:
   config:
     required: false
   label: price
-pages:
-- src/prestations/mon-deuxieme-test.md
