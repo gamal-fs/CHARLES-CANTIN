@@ -9,6 +9,8 @@ sections:
   label: Img
   create: documents
   match: "**/*"
+  templates:
+  - image
 - type: directory
   path: src/prestations
   label: Prestations
