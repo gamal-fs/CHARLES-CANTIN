@@ -9,7 +9,9 @@ sections:
   label: Prestations
   create: documents
   match: "**/*"
-  new_doc_ext: njk
+  new_doc_ext: ''
+  templates:
+  - new-prestation
 upload_dir: img
 public_path: "/img"
 front_matter_path: ''
