@@ -4,14 +4,11 @@ auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
-- type: directory
+- type: document
   path: src
   label: Prestations
-  create: documents
   match: "**/*"
-  new_doc_ext: ''
-  templates:
-  - new-prestation
+  read_only: false
 upload_dir: img
 public_path: "/img"
 front_matter_path: ''
