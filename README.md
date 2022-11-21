@@ -23,6 +23,7 @@ Pour ma part, j'ai utilisé:
 - HTML/CSS
 - Javascript 
 - Le CMS Headless "Forestry" avec un back-office pour la gestion du contenu des prestations et des photos
+
   --> pour la gestion des images bien indiquer le même nom pour le titre et la photo uploadé
 
 ## 3. Procédure de mise en place
