@@ -1,6 +1,6 @@
 ---
 title: bebe5
-categorie: mariage
+categorie: bapteme
 image: "/public/imgs/bebe5.jpg"
 
 ---
