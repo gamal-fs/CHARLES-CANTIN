@@ -10,7 +10,7 @@ sections:
   create: documents
   match: "**/*"
   exclude: imgs.json
-  new_doc_ext: ''
+  new_doc_ext: app
   templates:
   - image
 - type: directory
