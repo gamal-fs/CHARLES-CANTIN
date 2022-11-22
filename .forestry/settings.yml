@@ -8,9 +8,9 @@ sections:
   path: public/imgs
   label: Img
   create: documents
-  match: ".md"
-  exclude: imgs.json
-  new_doc_ext: ''
+  match: "**/*"
+  exclude: ".json"
+  new_doc_ext: app
   templates:
   - image
 - type: directory
