@@ -5,7 +5,7 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: directory
-  path: public/imgs
+  path: src/imgs
   label: Img
   create: documents
   match: "**/*"
@@ -14,7 +14,7 @@ sections:
   templates:
   - image
 - type: directory
-  path: public/prestations
+  path: src/prestations
   label: Prestations
   create: documents
   match: "**/*"
