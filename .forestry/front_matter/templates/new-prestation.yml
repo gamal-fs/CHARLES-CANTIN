@@ -18,3 +18,5 @@ fields:
   config:
     required: false
   label: price
+pages:
+- src/prestations/coucou-c-est-mou.md
